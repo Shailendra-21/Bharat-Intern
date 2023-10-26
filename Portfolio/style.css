@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200%;
+  background-color: rgba(73, 0, 142, 0.826);
+  color: whitesmoke;
+  font-family: "Dancing Script", "Lucida Sans";
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(226, 162, 77);
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgba(67, 47, 180, 0.685);
+  font-size: xx-large;
+}
+
+.left {
+  font-size: xx-large;
+}
+
+.right {
+  font-size: x-large;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+}
+
+.secondsection {
+  background-color: #4fa802ea;
+  margin:50px 0 0 0;
+  height: 150vh;
+  font-size: 30px;
+}
+.heading{
+  padding-top: 100px;
+text-align: center;
+}
+
+.box {
+  width: 1000px;
+  background: white;
+  height: 2px;
+  margin: 100px 0 0 130px;
+  display: flex;
+}
+
+.vertical {
+  height: 90px;
+  width: 2px;
+  background-color: white;
+  margin: 0 120px;
+}
+.leftsection {
+  font-size: 50px;
+  margin: 100px 0 0 100px;
+}
+.rightsection {
+  width: 60%;
+}
+
+img {
+  height: 500px;
+}
+.blue {
+  color: rgb(112, 167, 255);
+}
+
+#element {
+  color: rgb(112, 167, 255);
+}
+
+.image {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  top: -40px;
+  left: -20px;
+}
+
+.vertical-text {
+  position: relative;
+  width: 200px;
+  top: 55px;
+  right: 50px;
+  font-size: xx-large;
+  color: rgb(0, 0, 0);
+}
+
+.vertical-desc {
+  position: relative;
+  width: 170px;
+  top: 60px;
+  right: 70px;
+  font-size: x-large;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#contact .contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#contact .contact-items {
+  width: 100%;
+}
+
+#contact .contact-item {
+  width: 80%;
+  padding: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+#contact .icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#contact .contact-info h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#contact .contact-info h2 {
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#footer {
+  display: block;
+  background-image: linear-gradient(60deg, #34cac7 0%, #3cd7b5 100%);
+}
+
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 10px;
+}
+
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#footer .social-item {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+#footer .social-item img {
+  filter: grayscale(1);
+  transition: 0.3s ease filter;
+}
+
+#footer .social-item:hover img {
+  filter: grayscale(0);
+}
+
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#contact .contact {
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+  justify-content: center;
+  min-width: 20vh;
+}
+
+#contact .contact-items {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+#contact .contact-item {
+  width: 30%;
+  flex-direction: row;
+}
+
+#contact .contact-item .icon {
+  height: 100px;
+  width: 100px;
+}
+#contact .contact-item .icon img {
+  object-fit: contain;
+}
+
+#contact .contact-item .contact-info {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+#h2{
+  padding-top: 40px;
+}
+
+p{
+  padding-bottom: 40px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Shailendra's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi!!,My name is <span class="blue">Shailendra</span>
+                <div>and I am </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="developer.png" alt="developer">
+            </div>
+        </section>
+        <section class="secondsection">
+            <h1 class="heading">Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image" src="dev.png" alt="developer">
+                    <div class="vertical-text">Web designer(2019-2021)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis est, incidunt
+                        reprehenderit
+                        consequuntur sit non officiis dolore facere nulla?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="dev.png" alt="developer">
+                    <div class="vertical-text">Front-end Developer (2015-2017)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis est, incidunt
+                        reprehenderit
+                        consequuntur sit non officiis dolore facere nulla?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="dev.png" alt="developer">
+                    <div class="vertical-text">Back-end Developer(2017-2019)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis est, incidunt
+                        reprehenderit
+                        consequuntur sit non officiis dolore facere nulla?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="dev.png" alt="developer">
+                    <div class="vertical-text">Full-Stack Developer (2021-2023)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis est, incidunt
+                        reprehenderit
+                        consequuntur sit non officiis dolore facere nulla?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="contact" style="background-color: burlywood;">
+        <div class=" contact container">
+            <div>
+                <h1 id="info">Contact info</h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+1 234 123 1234</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>abcd@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Chennai, India</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1>Madikara Shailendra</h1>
+            </div>
+            <h2 id="h2">You can connect with me through</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/facebook.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/fluency/48/instagram-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/twitterx.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/fluency/48/linkedin.png" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2023 Shailendra. All rights reserved</p>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Web designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
